@@ -1,5 +1,4 @@
-@import-normalize;
-/* bring in normalize.css styles */
+@import-normalize; /* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -8,11 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* additional code */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 code {
@@ -28,17 +22,4 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
